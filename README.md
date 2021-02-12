@@ -21,4 +21,6 @@ The metrics chosen for measuring each models performance are:
 * Precision
 * F1 score
 * Recall
-
+# Data
+For this project, the dataset that was used may be found in the bellow github project:
+https://github.com/t-davidson/hate-speech-and-offensive-language, and translate it with tweet_transator.py .
