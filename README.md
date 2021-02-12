@@ -16,3 +16,9 @@ Four classification methods were used:
 * Guassin Naive Bayes
 * KNearest Neighbors
 * XGBoost
+# Metrics
+The metrics chosen for measuring each models performance are:
+* Precision
+* F1 score
+* Recall
+
