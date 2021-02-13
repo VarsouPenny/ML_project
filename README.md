@@ -81,3 +81,6 @@ XGB run time: 168.84296131134033
 
 In the last step we evaluate our scores with k-fold.
 Unfortunatey, it is clear now that none of this models consists a feasible solution to the problem.
+# Final thoughts
+The main problems occurs due to the fact that our dataset is inbalaned and our transation. 
+In general sentiment lexicons and word embeddings constitute well-established sources of information for sentiment analysis in online social media. Although their effectiveness has been demonstrated in state-of-the-art sentiment analysis and related tasks in the English language, such publicly available resources are much less developed and evaluated for the Greek language.
