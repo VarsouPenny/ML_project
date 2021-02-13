@@ -13,7 +13,7 @@ All the cide and experiments for the project included in the classification.ipyn
 # Classification Models
 Four classification methods were used:
 * Logistic Regression
-* Guassin Naive Bayes
+* Guassian Naive Bayes
 * KNearest Neighbors
 * XGBoost
 # Metrics
