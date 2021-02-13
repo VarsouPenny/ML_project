@@ -35,9 +35,13 @@ The experiment can be divide into five steps:
 5. Model evaluation
 
 In firts step, we transalte our dataset.
+
 Second step in about reprocess in our tweets using stopwords, find spaces, urls, retweets, tokensize.
+
 In third step we use Tfidf vectorize, pos tags and sentiment analysis in order to extract our final features.
+
 In fourth step we run our classification model and find for all classifiers run time and classification scores:
+
 Logistic Regression time: 13.659311294555664 
 
               precision    recall  f1-score   support
