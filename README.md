@@ -84,3 +84,8 @@ Unfortunatey, it is clear now that none of this models consists a feasible solut
 # Final thoughts
 The main problems occurs due to the fact that our dataset is inbalaned and our transation. 
 In general sentiment lexicons and word embeddings constitute well-established sources of information for sentiment analysis in online social media. Although their effectiveness has been demonstrated in state-of-the-art sentiment analysis and related tasks in the English language, such publicly available resources are much less developed and evaluated for the Greek language.
+# Installations
+  pip install python-csv
+  pip install pandas
+  pip install scikit-learn
+  pip istall xgboost
