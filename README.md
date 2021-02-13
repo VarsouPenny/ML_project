@@ -80,4 +80,4 @@ XGB run time: 168.84296131134033
 
 
 In the last step we evaluate our scores with k-fold.
-
+Unfortunatey, it is clear now that none of this models consists a feasible solution to the problem.
