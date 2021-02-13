@@ -34,7 +34,57 @@ The experiment can be divide into five steps:
 4. Model tuning
 5. Model evaluation
 
-1. Transalte our dataset.
-2. Preprocess our tweets using stopwords, find spaces, urls, retweets, tokensize.
-3. Use Tfidf vectorize, pos tags and sentiment analysis in order to extract our final features.
+In firts step, we transalte our dataset.
+Second step in about reprocess in our tweets using stopwords, find spaces, urls, retweets, tokensize.
+In third step we use Tfidf vectorize, pos tags and sentiment analysis in order to extract our final features.
+In fourth step we run our classification model and find for all classifiers run time and classification scores:
+Logistic Regression time: 13.659311294555664 
+
+              precision    recall  f1-score   support
+
+           0       0.13      0.36      0.19       135
+           1       0.84      0.58      0.69      1384
+           2       0.32      0.51      0.39       294
+
+    accuracy                           0.55      1813
+   macro avg       0.43      0.48      0.42      1813
+weighted avg       0.70      0.55      0.60      1813
+
+GaussianNB run time: 0.8815405368804932 
+
+              precision    recall  f1-score   support
+
+           0       0.08      0.64      0.14       135
+           1       0.79      0.23      0.36      1384
+           2       0.33      0.34      0.33       294
+
+    accuracy                           0.28      1813
+   macro avg       0.40      0.40      0.28      1813
+weighted avg       0.66      0.28      0.34      1813
+
+KNN run time: 32.43400049209595 
+
+              precision    recall  f1-score   support
+
+           0       0.16      0.23      0.19       135
+           1       0.79      0.88      0.83      1384
+           2       0.51      0.10      0.17       294
+
+    accuracy                           0.71      1813
+   macro avg       0.48      0.40      0.39      1813
+weighted avg       0.69      0.71      0.68      1813
+
+XGB run time: 168.84296131134033 
+
+              precision    recall  f1-score   support
+
+           0       0.50      0.01      0.03       135
+           1       0.79      0.98      0.87      1384
+           2       0.64      0.20      0.31       294
+
+    accuracy                           0.78      1813
+   macro avg       0.64      0.40      0.40      1813
+weighted avg       0.74      0.78      0.72      1813
+
+In the last step we evaluate our scores with k-fold.
 
