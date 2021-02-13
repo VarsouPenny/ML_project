@@ -18,9 +18,9 @@ Four classification methods were used:
 * XGBoost
 # Metrics
 The metrics chosen for measuring each models performance are:
-* Precision
+* Precision -Recall
 * F1 score
-* Recall
+* Accuracy
 # Data
 For this project, the dataset that was used may be found in the bellow github project:
 https://github.com/t-davidson/hate-speech-and-offensive-language, and translate it with tweet_transator.py .
