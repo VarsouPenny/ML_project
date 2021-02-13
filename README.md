@@ -42,45 +42,48 @@ In third step we use Tfidf vectorize, pos tags and sentiment analysis in order t
 
 In fourth step we run our classification model and find for all classifiers run time and classification scores:
 
-Logistic Regression time: 13.659311294555664 
+Logistic Regression time: 17.44202494621277 
 
               precision    recall  f1-score   support
-           0       0.13      0.36      0.19       135
-           1       0.84      0.58      0.69      1384
-           2       0.32      0.51      0.39       294
-    accuracy                           0.55      1813
+
+           0       0.12      0.32      0.18       360
+           1       0.85      0.66      0.74      4205
+           2       0.34      0.46      0.39       874
+
+    accuracy                           0.61      5439
 
 
 
-
-GaussianNB run time: 0.8815405368804932 
-
-              precision    recall  f1-score   support
-           0       0.08      0.64      0.14       135
-           1       0.79      0.23      0.36      1384
-           2       0.33      0.34      0.33       294
-    accuracy                           0.28      1813
-
-
-KNN run time: 32.43400049209595 
+GaussianNB run time: 1.778012752532959 
 
               precision    recall  f1-score   support
-           0       0.16      0.23      0.19       135
-           1       0.79      0.88      0.83      1384
-           2       0.51      0.10      0.17       294
 
-    accuracy                           0.71      1813
+           0       0.06      0.58      0.12       360
+           1       0.79      0.25      0.38      4205
+           2       0.35      0.34      0.34       874
+
+    accuracy                           0.29      5439
+
+KNN run time: 107.33826065063477  
+
+             precision    recall  f1-score   support
+
+           0       0.12      0.18      0.14       360
+           1       0.79      0.88      0.84      4205
+           2       0.51      0.12      0.19       874
+
+    accuracy                           0.71      5439
 
 
 
-XGB run time: 168.84296131134033 
-
+XGB run time: 211.92077612876892 
               precision    recall  f1-score   support
-           0       0.50      0.01      0.03       135
-           1       0.79      0.98      0.87      1384
-           2       0.64      0.20      0.31       294
 
-    accuracy                           0.78      1813
+           0       0.35      0.03      0.05       360
+           1       0.81      0.98      0.88      4205
+           2       0.69      0.27      0.38       874
+
+    accuracy                           0.80      5439
 
 
 In the last step we evaluate our scores with k-fold.
