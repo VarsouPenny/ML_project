@@ -77,6 +77,7 @@ KNN run time: 107.33826065063477
 
 
 XGB run time: 211.92077612876892 
+              
               precision    recall  f1-score   support
 
            0       0.35      0.03      0.05       360
